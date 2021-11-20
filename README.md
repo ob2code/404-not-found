@@ -38,7 +38,7 @@
 
 ![screenshot](screenshot_mobile.png)
 
-Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your project by answering:
+Hello!
 
 - I am a bit confused when dealing header text with large screen. The problem has solved until add one more specific screen query.
 ```css
