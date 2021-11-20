@@ -40,10 +40,26 @@
 
 Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your project by answering:
 
-- Where can I see your demo?
-- What was your experience?
-- What have you learned/improved?
-- Your wisdom? :)
+- I am a bit confused when dealing header text with large screen. The problem has solved until add one more specific screen query.
+```css
+/* X-Large devices (large desktops, 1200px and up) */
+  @media screen and (min-width: 1200px) {
+    .card__header {
+      width: 60%;
+    }
+  }
+```
+- Learned how to center bottom an element
+```css
+.attribution {
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+```
 
 ### Built With
 
@@ -62,10 +78,11 @@ This application/site was created as a submission to a [DevChallenges](https://d
 
 <!-- This section should list any articles or add-ons/plugins that helps you to complete the project. This is optional but it will help you in the future. For exmpale -->
 
-- [Steps to replicate a design with only HTML and CSS](https://devchallenges-blogs.web.app/how-to-replicate-design/)
+- Do recommend [Steps to replicate a design with only HTML and CSS](https://devchallenges-blogs.web.app/how-to-replicate-design/)
+- StackOverflow - Align an element center in bottom screen (see sample code above).
 
 ## Contact
 
-- 💻Website [ob2code.netlify.app](https://ob2code.netlify.app/)
+- 💻Website (under construction) [ob2code.netlify.app](https://ob2code.netlify.app/)
 - 👨‍💻GitHub [@ob2code](https://github.com/ob2code)
 - 🐤Twitter [@ob2code](https://twitter.com/ob2code)
