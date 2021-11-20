@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>404 NOT FOUND</title>
+    <link rel="icon" href="devchallenges.png" />
+
+    <link rel="shortcut icon" type="image/x-icon" href="https://devchallenges.io/" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&family=Space+Mono&display=swap"
+        rel="stylesheet">
+
+    <style>
+        /* Reset all the default stylings */
+        *,
+        *:before,
+        *:after {
+            box-sizing: border-box;
+        }
+
+        html,
+        body,
+        div,
+        span,
+        applet,
+        object,
+        iframe,
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6,
+        p,
+        blockquote,
+        pre,
+        a,
+        abbr,
+        acronym,
+        address,
+        big,
+        cite,
+        code,
+        del,
+        dfn,
+        em,
+        img,
+        ins,
+        kbd,
+        q,
+        s,
+        samp,
+        small,
+        strike,
+        strong,
+        sub,
+        sup,
+        tt,
+        var,
+        b,
+        u,
+        i,
+        center,
+        dl,
+        dt,
+        dd,
+        fieldset,
+        form,
+        label,
+        legend,
+        table,
+        caption,
+        tbody,
+        tfoot,
+        thead,
+        tr,
+        th,
+        td,
+        article,
+        aside,
+        canvas,
+        details,
+        embed,
+        figure,
+        figcaption,
+        footer,
+        header,
+        hgroup,
+        menu,
+        nav,
+        output,
+        ruby,
+        section,
+        summary,
+        time,
+        mark,
+        audio,
+        video,
+        hr {
+            margin: 0;
+            padding: 0;
+            border: 0;
+        }
+
+        /* CSS variables */
+        :root {
+            --font-pri: 'Space Mono', monospace;
+            --font-sec: 'Inconsolata', monospace;
+
+            --gray-1: #333333;
+            --gray-2: #4F4F4F;
+            --gray-3: #BDBDBD;
+
+            --text-xs: 0.75rem;
+            --text-sm: 0.875rem;
+            --text-md: 1rem;
+            --text-lg: 1.5rem;
+            --text-xl: 3rem;
+
+            --space-sm: 0.5rem;
+            --space-md: 1rem;
+            --space-lg: 2rem;
+            --space-xl: 3rem;
+
+        }
+
+        /* Page styles */
+
+        body {
+            font-family: var(--font-pri);
+            color: var(--gray-1);
+            padding: var(--space-md);
+        }
+
+        h5 {
+            font-family: var(--font-sec);
+            font-weight: 700;
+            font-size: var(--text-lg);
+            text-transform: uppercase;
+        }
+
+        .page-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 90vh;
+        }
+
+
+        .card {
+            display: flex;
+            align-items: center;
+        }
+
+        .card__img img {
+            width: 100%;
+            max-width: 440px;
+            height: auto;
+        }
+
+        .card__content {
+            padding: var(--space-md);
+        }
+
+        .card__header {
+            font-weight: bold;
+            font-style: normal;
+            font-size: var(--text-xl);
+            margin-bottom: var(--space-md);
+        }
+
+        .card__desc {
+            margin-bottom: var(--space-md);
+            max-width: 381px;
+        }
+
+        .btn {
+            padding: var(--space-md) var(--space-lg);
+            text-transform: uppercase;
+            background-color: var(--gray-1);
+            color: #FFFFFF;
+        }
+
+        /* // Medium devices (tablets/mobiles, 767px and down) */
+        @media screen and (max-width: 767px) {
+            .card {
+                display: block;
+            }
+
+            .card__header {
+                font-size: var(--text-lg);
+            }
+
+            .card__desc {
+                font-size: var(--text-md);
+            }
+        }
+
+        /* X-Large devices (large desktops, 1200px and up) */
+        @media screen and (min-width: 1200px) {
+            .card__header {
+                width: 60%;
+            }
+        }
+
+        .attribution {
+            position: absolute;
+            margin-left: auto;
+            margin-right: auto;
+            left: 0;
+            right: 0;
+            text-align: center;
+            color: var(--gray-3);
+        }
+
+        .lnk {
+            text-decoration: none;
+            color: var(--gray-3);
+            font-weight: bold;
+        }
+
+        .lnk:hover {
+            color: var(--gray-2);
+        }
+    </style>
+</head>
+
+<body>
+
+    <h5>404 not found</h5>
+
+    <div class="page-container">
+        <div class="card">
+            <div class="card__img"><img src="Scarecrow.png" alt="Scarecrow"></div>
+            <div class="card__content">
+                <h1 class="card__header">I have bad news for you</h1>
+
+                <p class="card__desc">The page you are looking for might be removed or
+                    is temporarily unavailable</p>
+                <button class="btn"><span>back to homepage</span></button>
+            </div>
+        </div>
+    </div>
+    <div class="attribution">created by <a class="lnk" href="#">ob2code</a> - devChallenges.io</div>
+
+</body>
+
+</html>
